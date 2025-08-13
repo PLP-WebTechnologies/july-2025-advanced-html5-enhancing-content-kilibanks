@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>week 2 enhanced HTML elements</title>
+</head>
+<body>
+    <h2>definition list</h2>
+    <dl>
+        <dt>back end</dt>
+        <dd>a server software that users do not interact with directly and where application logic resides</dd>
+        <dt>front end</dt>
+        <dd>presentation layer of a software where the user interacts</dd>
+    </dl>
+    <h2>nested list</h2>
+    <ul type="A">
+        <li>fruits</li>
+        <ul>
+            <li>Mango</li>
+            <li>oranges</li>
+            <li>pawpaws</li>
+        </ul>
+        <li>vegetables</li>
+        <ul>
+            <li>kales</li>
+            <li>cabbage</li>
+            <li>coriander</li>
+        </ul>
+    </ul>
+    <h2>images</h2>
+    <img src="https://media.istockphoto.com/id/2101588899/photo/53mpix-panorama-of-beautiful-mount-ama-dablam-in-himalayas-nepal.jpg?s=612x612&w=is&k=20&c=8iVOsWZYgVKLB7VAEGI_913tcnZMQLM5GB1EbG2fzg0=" alt="mountain image" height="300" width="300">
+    <h2>video</h2>
+    <video src="https://youtu.be/kSl8DRmwmo4.mp4" width="300" height="300">
+        your browser does not support this format
+    </video>
+    <h2>tables</h2>
+    <table border="2">
+        <thead>
+            <tr>
+                <th>name</th>
+                <th>age</th>
+                <th>gender</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Wilfred</td>
+                <td>20</td>
+                <td>male</td>
+            </tr>
+            <tr>
+                <td>Wilfred</td>
+                <td>20</td>
+                <td>male</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <section>
+    <form action="location" method="post" enctype="multipart/form-data">
+        <label for="name">name: </label>
+        <input type="text" id="name" name="name" placeholder="kili" required>
+        <br><br>
+        <label for="email">email</label>
+        <input type="email" id="email" name="email" placeholder="kilibanks123@gmail.com" required autocomplete="additional-name">
+        <br><br>
+        <label for="email">date</label>
+        <input type="date" id="date" name="date" placeholder="dd/mm/yyyy" required>
+        <br><br>
+        <label for="password">password</label>
+        <input type="password" id="password" name="password" placeholder="xytrsewas234" required>
+        <br><br>
+        <label for="number">phone number</label>
+        <input type="number" id="phone number" name="phone number" placeholder="0729134212" required>
+        <br><br>
+        <label for="checkbox">checkbox</label>
+        <input type="checkbox" id="checkbox" name="checkbox" >
+        <br><br>
+        <label for="title">Mr</label>
+        <input type="radio" id=" Mr" name=" Mr"  >
+        <br><br>
+        <label for="title">Mrs</label>
+        <br><br>
+        <label for="country">country</label>
+        <input type="text" id=" Kenya" name=" Kenya" value="Kenya" readonly>
+        <br><br>
+        <label for="county">county</label>
+        <select name="county" id="county">
+                <option value="V">Vihiga</option>
+                <option value="N">Nairobi</option>
+                <option value="K">kajiado</option>
+                <option value="M">Mandera</option>
+                <option value="G">Garissa</option>
+                <option value="W">Wajir</option>
+                <option value="T">Tana River</option>
+        </select>
+        <br><br>
+        <label for="photo">photo</label>
+        <input type="file" name="photo" id="choose file">
+        <br><br>
+        <input type="reset" value="reset">
+        <br><br>
+        <input type="submit" value="submit">
+    </form>
+    </section>
+</body>
+</html>
